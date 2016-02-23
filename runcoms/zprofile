@@ -76,3 +76,9 @@ if [[ ! -d "$TMPDIR" ]]; then
 fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
+
+#
+# Others
+#
+
+export HEROKU_SSL_VERIFY=disable
