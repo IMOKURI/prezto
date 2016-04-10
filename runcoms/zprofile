@@ -43,11 +43,11 @@ typeset -gU cdpath fpath mailpath path
 
 # Set the list of directories that Zsh searches for programs.
 path=(
-  /usr/local/{bin,sbin}
-  /usr/local/heroku/bin
-  $HOME/bin
-  $HOME/.local/bin
-  $HOME/node_modules/.bin
+  /usr/local/{bin,sbin}(N-/)
+  /usr/local/heroku/bin(N-/)
+  $HOME/bin(N-/)
+  $HOME/.local/bin(N-/)
+  $HOME/node_modules/.bin(N-/)
   $path
 )
 
